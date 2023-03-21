@@ -12,10 +12,10 @@ export default function Contact() {
             <h1 className={classes.let}>Let's Connect</h1>
             <div className={classes.line}></div>
             <div className={classes.socials}>
-                <i className="fa-brands fa-github" style={{color: 'white'}}></i>
-                <i className="fa-brands fa-twitter" style={{color: 'white'}}></i>
-                <i className="fa-brands fa-linkedin" style={{color: 'white'}}></i>
-                <i className="fa-brands fa-whatsapp" style={{color: 'white'}}></i>
+                <a style={{background: 'none', border: 'none'}} href='https://github.com/jamaloflagos'> <i className="fa-brands fa-github" style={{color: 'white'}}></i> </a>
+                <a style={{background: 'none', border: 'none'}} href='https://twitter.com/OluwatoyinJamal'> <i className="fa-brands fa-twitter" style={{color: 'white'}}></i> </a>
+                <a style={{background: 'none', border: 'none'}} href='https://www.linkedin.com/in/ishaq-jamal-214052247/'> <i className="fa-brands fa-linkedin" style={{color: 'white'}}></i> </a>
+                <a style={{background: 'none', border: 'none'}} href='https://wa.me/08135536774'> <i className="fa-brands fa-whatsapp" style={{color: 'white'}}></i> </a>
             </div>
 
         </div>

@@ -1,13 +1,11 @@
 import classes from '../css/Home.module.css'
 import {Link} from 'react-scroll'
-
 export default function Home() {
-    
     return (
         <div className={classes.home}>
             <header>
                 <h1 className={classes.jamal}>Jamal</h1>
-                <a  href=''
+                <a  href='myResume.pdf'
                     download
                     className={classes.resume}
                 >Resume</a>
@@ -35,6 +33,7 @@ export default function Home() {
                     <div className={classes.flex}>
                         <h1>I can help you with that</h1> 
                         <Link
+                        
                             to='project'
                             smooth={true}
                             duration={1000}
