@@ -1,0 +1,83 @@
+.about, .skillset {
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+img {
+    width: 300px;
+    height: 300px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+span {
+    color: #ccc4bf;
+}
+
+.row {
+    height: auto;
+    margin-top: 20px;
+}
+
+.col {
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 2vw;
+    padding: 10px;
+    color: white;
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+    .row {
+        display: block;
+    }
+
+    .col {
+        width: 250px;
+        margin: 0 auto 20px auto;
+    }
+
+    img {
+        width: 200px;
+        height: 200px;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .row {
+        display: grid;
+        grid-template-columns: 350px 350px ;
+        justify-content: center;
+        row-gap: 30px;
+        column-gap: 30px;
+        margin-bottom: 30px;
+    }
+
+    img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .framer {
+        font-size: 2vw;
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    h1 {
+        font-size: 2vw;
+    }
+    .framer {
+        font-size: 1.5vw;
+    }
+}

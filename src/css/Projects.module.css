@@ -1,0 +1,39 @@
+.grid {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+    position: relative;
+}
+
+.name {
+    font-size: 3vw;
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 20px;
+    color: white;
+    background: #80221b;
+    width: 80px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    /* bottom: 0; */
+}
+
+@media only screen and (max-width: 600px) {
+    .img {
+        width: 300px;
+        height: 300px;
+    }
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .img {
+        width: 500px;
+    }
+    .name {
+        width: 200px;
+    }
+}

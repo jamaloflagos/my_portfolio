@@ -1,0 +1,22 @@
+.line {
+    height: 1px;
+    width: 200px;
+    background: #80221b;
+    margin: auto;
+}
+
+.let {
+    width: 200px;
+    margin: 20px auto 10px auto;
+    color: white;
+    font-size: 4vw;
+    text-align: center;
+}
+
+.socials {
+    width: 150px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    color: #ccc4bf;
+}

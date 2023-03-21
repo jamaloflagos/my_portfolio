@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home {
+    /* background-color: #232222; */
+    height: auto;
+    position: relative;
+    color: #ccc4bf;
+}
+
+a {
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    width: auto;
+    color: white;
+    background: #80221b;
+    border: 1px solid #80221b;
+    border-radius: 5px;
+    line-height: normal;
+    margin-top: 5px;
+}
+
+.myInfo, .hire, .biz {
+    font-size: 1.5vw;
+    text-align: justify;
+    padding-top: 5vh;
+    letter-spacing: 1px;
+    line-height: 15px;
+}
+
+.row {
+    display: grid;
+    width: 80vw;
+    margin: auto;
+}
+
+
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    margin-top: 5px;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.jamal {
+    position: relative;
+    font-size: 15px;
+    border-bottom: 1px solid #80221b;
+    width: 60px;
+    padding: 0;
+    height: 15px;
+    color: white;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.jamal::before {
+    content: '';
+    height: 1px;
+    width: 65px;
+    background-color: #80221b;
+    position: absolute;
+    top: 16px;
+    font-size: 50px;
+}
+
+.jamal::after {
+    content: 'v1.0';
+    font-size: 7.5px;
+    margin-left: 2px;
+    color: #ccc4bf;
+}
+
+/* style={{height: '45px', backgroundColor: 'transparent', 
+                            border: '1px dotted #80221b', margin: '10px 30px 0 0',
+                            fontSize: '3vw', padding: '5px' */
+
+.resume {
+    height: 45px;
+    border: 1px solid #80221b;
+    margin: 10px 30px 0 0;
+    font-size: 3vw;
+    padding: 5px;
+    background: transparent;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .row {
+        grid-template-columns: auto;
+        grid-template-rows: 150px 150px 150px;
+    }
+
+    a {
+        height: 15px;
+        padding-top: 3px;
+        border-radius: 3px;
+    }
+
+    .resume {
+        height: 25px;
+    }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .myInfo, .hire, .biz {
+        line-height: 25px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 992px) {
+    .myInfo, .hire, .biz {
+        line-height: 35px;
+    }
+}
